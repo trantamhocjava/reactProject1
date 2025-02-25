@@ -1,0 +1,57 @@
+.nav {
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    padding: 0px 80px;
+    /* margin: 0 auto; */
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.img {
+    width: 30px;
+    cursor: pointer;
+}
+
+.fourLinks {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    gap: 20px;
+    /* width: 400px; */
+}
+
+.link {
+    font-size: 20px;
+}
+
+.linkWithArrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.arrowDown {
+    width: 10px;
+
+}
+
+.button {
+    margin-left: auto;
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
+    border: none;
+}
+
+.button:hover {
+    background-color: darkblue;
+}
+

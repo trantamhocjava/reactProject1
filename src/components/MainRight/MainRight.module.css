@@ -1,0 +1,26 @@
+.div {
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 40px;
+    /* width: 800px; */
+
+}
+
+.heading {
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.selectBoxs {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.websiteDescs {
+    display: inline-flex;
+    gap: 20px;
+    margin-top: 20px;
+    /* width: 900px; */
+}

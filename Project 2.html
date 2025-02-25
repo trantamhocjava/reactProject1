@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<!-- saved from url=(0023)http://localhost:5173/# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="module">
+import RefreshRuntime from "/@react-refresh"
+RefreshRuntime.injectIntoGlobalHook(window)
+window.$RefreshReg$ = () => {}
+window.$RefreshSig$ = () => (type) => type
+window.__vite_plugin_react_preamble_installed__ = true
+</script>
+
+    <script type="module" src="./Project 2_files/client"></script>
+
+    
+    <link rel="icon" type="image/svg+xml" href="http://localhost:5173/vite.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+  <style type="text/css" data-vite-dev-id="D:/Hoc Tap/React/demo2/project2/src/index.css">@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+}</style><style type="text/css" data-vite-dev-id="D:/Hoc Tap/React/demo2/project2/src/components/Navigation/Navigation.module.css">._nav_15za4_1 {
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    padding: 0px 80px;
+    /* margin: 0 auto; */
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+._img_15za4_29 {
+    width: 30px;
+    cursor: pointer;
+}
+
+._fourLinks_15za4_39 {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    gap: 20px;
+    /* width: 400px; */
+}
+
+._link_15za4_57 {
+    font-size: 20px;
+}
+
+._linkWithArrow_15za4_65 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    cursor: pointer;
+}
+
+._arrowDown_15za4_81 {
+    width: 10px;
+
+}
+
+._button_15za4_91 {
+    margin-left: auto;
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
+    border: none;
+}
+
+._button_15za4_91:hover {
+    background-color: darkblue;
+}
+
+</style><style type="text/css" data-vite-dev-id="D:/Hoc Tap/React/demo2/project2/src/components/Link/Link.module.css">._a_c4byx_1 {
+    color: black;
+    text-decoration: none;
+}</style><style type="text/css" data-vite-dev-id="D:/Hoc Tap/React/demo2/project2/src/components/Button/Button.module.css">._button_wzbpo_1 {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}</style><style type="text/css" data-vite-dev-id="D:/Hoc Tap/React/demo2/project2/src/App.module.css">._app_qv0de_1 {
+    width: 100%; /* không được dùng 100vw */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* overflow-y: visible; */
+    /* height: 100vh; */
+}
+
+
+._hr_qv0de_21 {
+    width: 100vw;
+    opacity:0.5 ;
+    background-color: white;
+    position: sticky;
+    top: 80px;
+    z-index: 2;
+}</style><style type="text/css" data-vite-dev-id="D:/Hoc Tap/React/demo2/project2/src/components/MainRight/MainRight.module.css">._div_1q7x2_1 {
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 40px;
+    /* width: 800px; */
+
+}
+
+._heading_1q7x2_17 {
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+._selectBoxs_1q7x2_27 {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+._websiteDescs_1q7x2_41 {
+    display: inline-flex;
+    gap: 20px;
+    margin-top: 20px;
+    /* width: 900px; */
+}</style><style type="text/css" data-vite-dev-id="D:/Hoc Tap/React/demo2/project2/src/components/PartOfAddress/PartOfAddress.module.css">._partOfAddress_1h9fc_1 {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+._arrow_1h9fc_15 {
+    width: 6px;
+}
+
+._partOfAddressPrev_1h9fc_23 {
+    color: blue;
+    font-size: 18px;
+}</style><style type="text/css" data-vite-dev-id="D:/Hoc Tap/React/demo2/project2/src/components/SelectBox/SelectBox.module.css">._select_1qzzo_1 {
+    height: 40px;
+    width: 100px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid rgb(0,0,0, 0.2);
+}</style><style type="text/css" data-vite-dev-id="D:/Hoc Tap/React/demo2/project2/src/components/ButtonWithArrow/ButtonWithArrow.module.css">._div_85y6r_1 {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+}
+
+._icon_85y6r_13 {
+    position: absolute;
+    width: 20px;
+    right: 5px;
+}
+
+._button_85y6r_25 {
+    padding-right: 30px;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    /* border: none; */
+}</style><style type="text/css" data-vite-dev-id="D:/Hoc Tap/React/demo2/project2/src/components/WebsiteDesc/WebsiteDesc.module.css">._websiteDesc_xjtc2_1 {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+._websiteImgDiv_xjtc2_13 {
+    position: relative;
+    display: inline-flex;
+    /* border-radius: 10px; */
+}
+
+._websiteImgDiv_xjtc2_13:hover ._websiteImg_xjtc2_13 {
+    opacity: 0.7;
+}
+
+._websiteImgDiv_xjtc2_13:hover ._buttonWithArrow_xjtc2_33 {
+    opacity: 1;
+}
+
+._websiteImg_xjtc2_13 {
+    height: 250px;
+    width: 200px;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+._buttonWithArrow_xjtc2_33 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+._websiteDescDown_xjtc2_75 {
+    display: flex;
+    /* align-items: center; */
+    margin-top: 10px;
+
+}
+
+._icon_xjtc2_89 {
+    width: 30px;
+    height: 30px;
+    margin-top: 0;
+}
+
+._nameSource_xjtc2_101 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7px;
+    gap: 5px;
+    width: 120px;
+}
+
+._name_xjtc2_101 {
+    font-weight: bold;
+}
+
+._source_xjtc2_125 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+._money_xjtc2_137 {
+    margin-left: auto;
+    font-weight: bold;
+    
+}</style><style type="text/css" data-vite-dev-id="D:/Hoc Tap/React/demo2/project2/src/components/FeatureWithIcon/FeatureWithIcon.module.css">._div_1mab4_1 {
+    display: inline-flex;
+    align-items: center;
+    height: 45px;
+    position: relative;
+}
+
+._div_1mab4_1:hover {
+    background-color: lightgray;
+    border-radius: 4px;
+}
+
+._div_1mab4_1:hover ._p_1mab4_25 {
+    color: blue;
+}
+
+._div_1mab4_1:hover ._number_1mab4_33 {
+    opacity: 1;
+}
+
+._img_1mab4_41 {
+    width: 20px;
+}
+
+._p_1mab4_25 {
+    font-size: 18px;
+    margin-left: 10px;
+    width: 200px;
+}
+
+._number_1mab4_33 {
+    position: absolute;
+    right: 5px;
+    opacity: 0;
+    color: blue;
+
+}</style><style type="text/css" data-vite-dev-id="D:/Hoc Tap/React/demo2/project2/src/components/InputWithIcon/InputWithIcon.module.css">._div_oahft_1 {
+    display: inline-flex;
+    align-items: center;
+    position: relative;  
+}
+
+._icon_oahft_13 {
+    width: 20px;
+    position: absolute;
+    left: 5px;
+}
+
+._input_oahft_25 {
+    padding-left: 30px;
+    width: 350px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 3px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+._input_oahft_25:hover {
+    border: 2px solid rgba(0, 0, 0, 0.8);
+}
+
+._input_oahft_25:focus {
+    border: 2px solid rgba(52, 33, 214, 0.8);
+    outline: none;
+}
+
+</style><style type="text/css" data-vite-dev-id="D:/Hoc Tap/React/demo2/project2/src/components/Sidebar/Sidebar.module.css">._sidebar_14e3p_1 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: sticky;
+    top: 120px;
+    z-index: 1;
+    height: 455px;
+}
+
+._extraFeatureWithIcon_14e3p_21 {
+    height: 35px;
+}
+
+._hr_14e3p_29 {
+    margin: 5px;
+}</style><style type="text/css" data-vite-dev-id="D:/Hoc Tap/React/demo2/project2/src/components/Main/Main.module.css">._main_5i7k3_1 {
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+    justify-content: center;
+}</style><style type="text/css" data-vite-dev-id="D:/Hoc Tap/React/demo2/project2/src/components/GetStartedPart/GetStartedPart.module.css">._div_1x96v_1 {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-color: cyan;
+    margin-top: 100px;
+    /* align-items: center; */
+    justify-content: center;
+    /* padding: 0px 80px; */
+}
+
+._descDiv_1x96v_23 {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    /* margin-left: 80px; */
+    margin-top: 180px;
+
+}
+
+._heading_1x96v_41 {
+    /* color: white; */
+    font-size: 50px;
+}
+
+._desc_1x96v_23 {
+    margin-top: 10px;
+    width: 550px;
+}
+
+._button_1x96v_61 {
+    margin-top: 40px;
+    height: 50px;
+    width: 120px;
+    font-size: 18px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+._button_1x96v_61:hover {
+    opacity: 0.9;
+}
+
+._imgs_1x96v_91 {
+    display: inline-flex;
+
+}
+
+._imgSmall_1x96v_101 {
+    width: 100px;
+    height: 200px;
+    margin-top: 180px;
+    z-index: 1;
+}
+
+._imgBig_1x96v_115 {
+    width: 400px;
+    margin-top: 100px;
+    margin-left: -30px;
+}
+
+._imgMedium_1x96v_127 {
+    width: 350px;
+    z-index: 1;
+    margin-top: 180px;
+    margin-left: -150px;
+
+}</style><style type="text/css" data-vite-dev-id="D:/Hoc Tap/React/demo2/project2/src/components/BottomPage/BottomPage.module.css">._div_s9cot_1 {
+    display: flex;
+    width: 100%;
+    padding: 50px 50px;
+    justify-content: space-between;
+
+}
+
+._explorePart_s9cot_17 {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+._companyTerms_s9cot_31 {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 80px;
+}</style><style type="text/css" data-vite-dev-id="D:/Hoc Tap/React/demo2/project2/src/components/LinkWithImage/LinkWithImage.module.css">._img_1dqj6_1 {
+    width: 30px;
+}</style></head>
+  <body>
+    <div id="root"><div class="_app_qv0de_1"><div class="_nav_15za4_1"><img alt="icon" class="_img_15za4_29" src="./Project 2_files/w_icon.png"><div class="_fourLinks_15za4_39"><a href="http://localhost:5173/#" class="_link_15za4_57 _a_c4byx_1">Dashboard</a><div class="_linkWithArrow_15za4_65"><a href="http://localhost:5173/#" class="_link_15za4_57 _a_c4byx_1">Marketplace</a><img alt="arrow_down_icon" class="_arrowDown_15za4_81" src="./Project 2_files/arrow_down_icon.png"></div><a href="http://localhost:5173/#" class="_link_15za4_57 _a_c4byx_1">Learn</a><div class="_linkWithArrow_15za4_65"><a href="http://localhost:5173/#" class="_link_15za4_57 _a_c4byx_1">Resources</a><img alt="arrow_down_icon" class="_arrowDown_15za4_81" src="./Project 2_files/arrow_down_icon.png"></div></div><button class="_button_wzbpo_1 _button_15za4_91" fdprocessedid="85r0lv">Get started - it's free</button></div><hr class="_hr_qv0de_21"><div class="_main_5i7k3_1"><div class="_sidebar_14e3p_1"><div class="_div_oahft_1"><img alt="search_icon" class="_icon_oahft_13" src="./Project 2_files/search_icon.png"><input placeholder="Search for templates" class="_input_oahft_25" type="text" fdprocessedid="wpu8f"></div><div class="_div_1mab4_1"><img alt="icon" class="_img_1mab4_41" src="./Project 2_files/Home_icon.png"><p class="_p_1mab4_25">All</p><p class="_number_1mab4_33">6344</p></div><div class="_div_1mab4_1"><img alt="icon" class="_img_1mab4_41" src="./Project 2_files/Home_icon.png"><p class="_p_1mab4_25">Featured</p><p class="_number_1mab4_33"></p></div><div class="_div_1mab4_1"><img alt="icon" class="_img_1mab4_41" src="./Project 2_files/Home_icon.png"><p class="_p_1mab4_25">Free</p><p class="_number_1mab4_33"></p></div><hr class="_hr_14e3p_29"><div class="_div_1mab4_1 _extraFeatureWithIcon_14e3p_21"><img alt="icon" class="_img_1mab4_41" src="./Project 2_files/Home_icon.png"><p class="_p_1mab4_25">Architecture &amp; Design</p><p class="_number_1mab4_33"></p></div><div class="_div_1mab4_1 _extraFeatureWithIcon_14e3p_21"><img alt="icon" class="_img_1mab4_41" src="./Project 2_files/Home_icon.png"><p class="_p_1mab4_25">Arts &amp; Entertainment</p><p class="_number_1mab4_33"></p></div><div class="_div_1mab4_1 _extraFeatureWithIcon_14e3p_21"><img alt="icon" class="_img_1mab4_41" src="./Project 2_files/Home_icon.png"><p class="_p_1mab4_25">Blog &amp; Editorial</p><p class="_number_1mab4_33"></p></div><div class="_div_1mab4_1 _extraFeatureWithIcon_14e3p_21"><img alt="icon" class="_img_1mab4_41" src="./Project 2_files/Home_icon.png"><p class="_p_1mab4_25">Community &amp; Profit</p><p class="_number_1mab4_33"></p></div><div class="_div_1mab4_1 _extraFeatureWithIcon_14e3p_21"><img alt="icon" class="_img_1mab4_41" src="./Project 2_files/Home_icon.png"><p class="_p_1mab4_25">Documentation</p><p class="_number_1mab4_33"></p></div><div class="_div_1mab4_1 _extraFeatureWithIcon_14e3p_21"><img alt="icon" class="_img_1mab4_41" src="./Project 2_files/Home_icon.png"><p class="_p_1mab4_25">Education</p><p class="_number_1mab4_33"></p></div><div class="_div_1mab4_1 _extraFeatureWithIcon_14e3p_21"><img alt="icon" class="_img_1mab4_41" src="./Project 2_files/Home_icon.png"><p class="_p_1mab4_25">Environment</p><p class="_number_1mab4_33"></p></div></div><div class="_div_1q7x2_1"><div class="_partOfAddress_1h9fc_1"><p class="_partOfAddressPrev_1h9fc_23">Templates</p><img alt="Arrows_right_icon" class="_arrow_1h9fc_15" src="./Project 2_files/Arrows_right_icon.png"><p class="_partOfAddressPrev_1h9fc_23">Categories</p><img alt="Arrows_right_icon" class="_arrow_1h9fc_15" src="./Project 2_files/Arrows_right_icon.png"><p>Free</p></div><h1 class="_heading_1q7x2_17">Free Website Templates</h1><div class="_selectBoxs_1q7x2_27"><select id="" class="_select_1qzzo_1" fdprocessedid="ak7kh7"><option value="" hidden="">Style</option><option value="">Hello</option></select><select id="" class="_select_1qzzo_1" fdprocessedid="s875fk"><option value="" hidden="">Type</option><option value="">Hello</option></select></div><div class="_websiteDescs_1q7x2_41"><div class="_websiteDesc_xjtc2_1"><div class="_websiteImgDiv_xjtc2_13"><img alt="img" class="_websiteImg_xjtc2_13" src="./Project 2_files/web_img.jpg"><div class="_div_85y6r_1 _buttonWithArrow_xjtc2_33"><button class="_button_85y6r_25" fdprocessedid="re35g">View Detail</button><img alt="" class="_icon_85y6r_13" src="./Project 2_files/long_Arrows_right_icon.png"></div></div><div class="_websiteDescDown_xjtc2_75"><img alt="" class="_icon_xjtc2_89" src="./Project 2_files/w_icon.png"><div class="_nameSource_xjtc2_101"><p class="_name_xjtc2_101">Elysian Tennis</p><p class="_source_xjtc2_125">Webflow</p></div><p class="_money_xjtc2_137">Free</p></div></div><div class="_websiteDesc_xjtc2_1"><div class="_websiteImgDiv_xjtc2_13"><img alt="img" class="_websiteImg_xjtc2_13" src="./Project 2_files/web_img.jpg"><div class="_div_85y6r_1 _buttonWithArrow_xjtc2_33"><button class="_button_85y6r_25" fdprocessedid="bpf5bc">View Detail</button><img alt="" class="_icon_85y6r_13" src="./Project 2_files/long_Arrows_right_icon.png"></div></div><div class="_websiteDescDown_xjtc2_75"><img alt="" class="_icon_xjtc2_89" src="./Project 2_files/w_icon.png"><div class="_nameSource_xjtc2_101"><p class="_name_xjtc2_101">Iftech</p><p class="_source_xjtc2_125">Sithoopa Gunarathne</p></div><p class="_money_xjtc2_137">Free</p></div></div><div class="_websiteDesc_xjtc2_1"><div class="_websiteImgDiv_xjtc2_13"><img alt="img" class="_websiteImg_xjtc2_13" src="./Project 2_files/web_img.jpg"><div class="_div_85y6r_1 _buttonWithArrow_xjtc2_33"><button class="_button_85y6r_25" fdprocessedid="52rbfb">View Detail</button><img alt="" class="_icon_85y6r_13" src="./Project 2_files/long_Arrows_right_icon.png"></div></div><div class="_websiteDescDown_xjtc2_75"><img alt="" class="_icon_xjtc2_89" src="./Project 2_files/w_icon.png"><div class="_nameSource_xjtc2_101"><p class="_name_xjtc2_101">Fortress</p><p class="_source_xjtc2_125">Riffmax</p></div><p class="_money_xjtc2_137">Free</p></div></div><div class="_websiteDesc_xjtc2_1"><div class="_websiteImgDiv_xjtc2_13"><img alt="img" class="_websiteImg_xjtc2_13" src="./Project 2_files/web_img.jpg"><div class="_div_85y6r_1 _buttonWithArrow_xjtc2_33"><button class="_button_85y6r_25" fdprocessedid="hdy6i5">View Detail</button><img alt="" class="_icon_85y6r_13" src="./Project 2_files/long_Arrows_right_icon.png"></div></div><div class="_websiteDescDown_xjtc2_75"><img alt="" class="_icon_xjtc2_89" src="./Project 2_files/w_icon.png"><div class="_nameSource_xjtc2_101"><p class="_name_xjtc2_101">Kayo</p><p class="_source_xjtc2_125">Pawel Gola jjjjjjjjjjjjjjjjjj</p></div><p class="_money_xjtc2_137">Free</p></div></div></div><div class="_websiteDescs_1q7x2_41"><div class="_websiteDesc_xjtc2_1"><div class="_websiteImgDiv_xjtc2_13"><img alt="img" class="_websiteImg_xjtc2_13" src="./Project 2_files/web_img.jpg"><div class="_div_85y6r_1 _buttonWithArrow_xjtc2_33"><button class="_button_85y6r_25" fdprocessedid="l25z7">View Detail</button><img alt="" class="_icon_85y6r_13" src="./Project 2_files/long_Arrows_right_icon.png"></div></div><div class="_websiteDescDown_xjtc2_75"><img alt="" class="_icon_xjtc2_89" src="./Project 2_files/w_icon.png"><div class="_nameSource_xjtc2_101"><p class="_name_xjtc2_101">Elysian Tennis</p><p class="_source_xjtc2_125">Webflow</p></div><p class="_money_xjtc2_137">Free</p></div></div><div class="_websiteDesc_xjtc2_1"><div class="_websiteImgDiv_xjtc2_13"><img alt="img" class="_websiteImg_xjtc2_13" src="./Project 2_files/web_img.jpg"><div class="_div_85y6r_1 _buttonWithArrow_xjtc2_33"><button class="_button_85y6r_25" fdprocessedid="yw9qll">View Detail</button><img alt="" class="_icon_85y6r_13" src="./Project 2_files/long_Arrows_right_icon.png"></div></div><div class="_websiteDescDown_xjtc2_75"><img alt="" class="_icon_xjtc2_89" src="./Project 2_files/w_icon.png"><div class="_nameSource_xjtc2_101"><p class="_name_xjtc2_101">Iftech</p><p class="_source_xjtc2_125">Sithoopa Gunarathne</p></div><p class="_money_xjtc2_137">Free</p></div></div><div class="_websiteDesc_xjtc2_1"><div class="_websiteImgDiv_xjtc2_13"><img alt="img" class="_websiteImg_xjtc2_13" src="./Project 2_files/web_img.jpg"><div class="_div_85y6r_1 _buttonWithArrow_xjtc2_33"><button class="_button_85y6r_25" fdprocessedid="935yli">View Detail</button><img alt="" class="_icon_85y6r_13" src="./Project 2_files/long_Arrows_right_icon.png"></div></div><div class="_websiteDescDown_xjtc2_75"><img alt="" class="_icon_xjtc2_89" src="./Project 2_files/w_icon.png"><div class="_nameSource_xjtc2_101"><p class="_name_xjtc2_101">Fortress</p><p class="_source_xjtc2_125">Riffmax</p></div><p class="_money_xjtc2_137">Free</p></div></div><div class="_websiteDesc_xjtc2_1"><div class="_websiteImgDiv_xjtc2_13"><img alt="img" class="_websiteImg_xjtc2_13" src="./Project 2_files/web_img.jpg"><div class="_div_85y6r_1 _buttonWithArrow_xjtc2_33"><button class="_button_85y6r_25" fdprocessedid="f0cccg">View Detail</button><img alt="" class="_icon_85y6r_13" src="./Project 2_files/long_Arrows_right_icon.png"></div></div><div class="_websiteDescDown_xjtc2_75"><img alt="" class="_icon_xjtc2_89" src="./Project 2_files/w_icon.png"><div class="_nameSource_xjtc2_101"><p class="_name_xjtc2_101">Kayo</p><p class="_source_xjtc2_125">Pawel Gola jjjjjjjjjjjjjjjjjj</p></div><p class="_money_xjtc2_137">Free</p></div></div></div><div class="_websiteDescs_1q7x2_41"><div class="_websiteDesc_xjtc2_1"><div class="_websiteImgDiv_xjtc2_13"><img alt="img" class="_websiteImg_xjtc2_13" src="./Project 2_files/web_img.jpg"><div class="_div_85y6r_1 _buttonWithArrow_xjtc2_33"><button class="_button_85y6r_25" fdprocessedid="vfzym">View Detail</button><img alt="" class="_icon_85y6r_13" src="./Project 2_files/long_Arrows_right_icon.png"></div></div><div class="_websiteDescDown_xjtc2_75"><img alt="" class="_icon_xjtc2_89" src="./Project 2_files/w_icon.png"><div class="_nameSource_xjtc2_101"><p class="_name_xjtc2_101">Elysian Tennis</p><p class="_source_xjtc2_125">Webflow</p></div><p class="_money_xjtc2_137">Free</p></div></div><div class="_websiteDesc_xjtc2_1"><div class="_websiteImgDiv_xjtc2_13"><img alt="img" class="_websiteImg_xjtc2_13" src="./Project 2_files/web_img.jpg"><div class="_div_85y6r_1 _buttonWithArrow_xjtc2_33"><button class="_button_85y6r_25" fdprocessedid="4eh1i">View Detail</button><img alt="" class="_icon_85y6r_13" src="./Project 2_files/long_Arrows_right_icon.png"></div></div><div class="_websiteDescDown_xjtc2_75"><img alt="" class="_icon_xjtc2_89" src="./Project 2_files/w_icon.png"><div class="_nameSource_xjtc2_101"><p class="_name_xjtc2_101">Iftech</p><p class="_source_xjtc2_125">Sithoopa Gunarathne</p></div><p class="_money_xjtc2_137">Free</p></div></div><div class="_websiteDesc_xjtc2_1"><div class="_websiteImgDiv_xjtc2_13"><img alt="img" class="_websiteImg_xjtc2_13" src="./Project 2_files/web_img.jpg"><div class="_div_85y6r_1 _buttonWithArrow_xjtc2_33"><button class="_button_85y6r_25" fdprocessedid="fvzexp">View Detail</button><img alt="" class="_icon_85y6r_13" src="./Project 2_files/long_Arrows_right_icon.png"></div></div><div class="_websiteDescDown_xjtc2_75"><img alt="" class="_icon_xjtc2_89" src="./Project 2_files/w_icon.png"><div class="_nameSource_xjtc2_101"><p class="_name_xjtc2_101">Fortress</p><p class="_source_xjtc2_125">Riffmax</p></div><p class="_money_xjtc2_137">Free</p></div></div><div class="_websiteDesc_xjtc2_1"><div class="_websiteImgDiv_xjtc2_13"><img alt="img" class="_websiteImg_xjtc2_13" src="./Project 2_files/web_img.jpg"><div class="_div_85y6r_1 _buttonWithArrow_xjtc2_33"><button class="_button_85y6r_25" fdprocessedid="71fnc8">View Detail</button><img alt="" class="_icon_85y6r_13" src="./Project 2_files/long_Arrows_right_icon.png"></div></div><div class="_websiteDescDown_xjtc2_75"><img alt="" class="_icon_xjtc2_89" src="./Project 2_files/w_icon.png"><div class="_nameSource_xjtc2_101"><p class="_name_xjtc2_101">Kayo</p><p class="_source_xjtc2_125">Pawel Gola jjjjjjjjjjjjjjjjjj</p></div><p class="_money_xjtc2_137">Free</p></div></div></div></div></div><div class="_div_1x96v_1"><div class="_descDiv_1x96v_23"><h1 class="_heading_1x96v_41">Want to sell your own website templates?</h1><p class="_desc_1x96v_23">Check out the review process and guidelines to get started selling your own website templates</p><button class="_button_wzbpo_1 _button_1x96v_61" fdprocessedid="b8ik9">Get started</button></div><div class="_imgs_1x96v_91"><img alt="sky" class="_imgSmall_1x96v_101" src="./Project 2_files/sky.jpg"><img alt="sky_bg" class="_imgBig_1x96v_115" src="./Project 2_files/sky_bg.jpg"><img alt="sky" class="_imgMedium_1x96v_127" src="./Project 2_files/sky.jpg"></div></div><div class="_div_s9cot_1"><div class="_explorePart_s9cot_17"><p><strong>Explore</strong></p><a href="http://localhost:5173/#" class="_a_c4byx_1">Dashboard</a><a href="http://localhost:5173/#" class="_a_c4byx_1">Marketplace</a><a href="http://localhost:5173/#" class="_a_c4byx_1">Designers</a></div><div class="_explorePart_s9cot_17"><p><strong>Learn &amp; get help</strong></p><a href="http://localhost:5173/#" class="_a_c4byx_1">Support</a><a href="http://localhost:5173/#" class="_a_c4byx_1">University</a><a href="http://localhost:5173/#" class="_a_c4byx_1">Courses</a><a href="http://localhost:5173/#" class="_a_c4byx_1">Blog</a><a href="http://localhost:5173/#" class="_a_c4byx_1">Ebooks</a><a href="http://localhost:5173/#" class="_a_c4byx_1">Forum</a><a href="http://localhost:5173/#" class="_a_c4byx_1">Community</a><a href="http://localhost:5173/#" class="_a_c4byx_1">Developers</a><a href="http://localhost:5173/#" class="_a_c4byx_1">Wishlist</a><a href="http://localhost:5173/#" class="_a_c4byx_1">Status</a></div><div class="_companyTerms_s9cot_31"><div class="_explorePart_s9cot_17"><p><strong>Company</strong></p><a href="http://localhost:5173/#" class="_a_c4byx_1">About</a><a href="http://localhost:5173/#" class="_a_c4byx_1">Careers</a><a href="http://localhost:5173/#" class="_a_c4byx_1">Sitemap</a><a href="http://localhost:5173/#" class="_a_c4byx_1">Become an affiliate</a></div><div class="_explorePart_s9cot_17"><p><strong>Teams &amp; policies</strong></p><a href="http://localhost:5173/#" class="_a_c4byx_1">Terms of service</a><a href="http://localhost:5173/#" class="_a_c4byx_1">Privacy policy</a><a href="http://localhost:5173/#" class="_a_c4byx_1">Cookie policy</a><a href="http://localhost:5173/#" class="_a_c4byx_1">Cookie preferences</a></div></div><div class="_explorePart_s9cot_17"><p><strong>Social</strong></p><a class="" href="http://localhost:5173/#"><img alt="icon" class="_img_1dqj6_1" src="./Project 2_files/w_icon.png"></a><a class="" href="http://localhost:5173/#"><img alt="icon" class="_img_1dqj6_1" src="./Project 2_files/Youtube_icon.png"></a><a class="" href="http://localhost:5173/#"><img alt="icon" class="_img_1dqj6_1" src="./Project 2_files/twitter_icon.png"></a><a class="" href="http://localhost:5173/#"><img alt="icon" class="_img_1dqj6_1" src="./Project 2_files/w_icon.png"></a><a class="" href="http://localhost:5173/#"><img alt="icon" class="_img_1dqj6_1" src="./Project 2_files/Youtube_icon.png"></a><a class="" href="http://localhost:5173/#"><img alt="icon" class="_img_1dqj6_1" src="./Project 2_files/twitter_icon.png"></a></div></div></div></div>
+    <script type="module" src="./Project 2_files/main.jsx"></script>
+  
+
+<div class="__ruler_EXT_MAIN" style="display: none;"><div class="__rulerX __ruler_EXT"><ul class="__ruler_X"><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li></ul></div><div class="__rulerY __ruler_EXT"><ul class="__ruler_Y"><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li><li style="box-sizing: initial;"></li></ul></div></div><span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span></body></html>

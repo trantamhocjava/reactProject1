@@ -1,0 +1,15 @@
+.partOfAddress {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.arrow {
+    width: 6px;
+}
+
+.partOfAddressPrev {
+    color: blue;
+    font-size: 18px;
+}

@@ -1,0 +1,11 @@
+.nav {
+    height: 80px; /* Phải có chiều cao cố dịnh */
+    background-color: white; 
+    position: sticky;
+    top: 10px; /* Phải tính toán khoảng cách so với mép trên của trang */
+    z-index: 1; 
+
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}

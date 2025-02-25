@@ -1,0 +1,17 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: sticky;
+    top: 120px;
+    z-index: 1;
+    height: 455px;
+}
+
+.extraFeatureWithIcon {
+    height: 35px;
+}
+
+.hr {
+    margin: 5px;
+}

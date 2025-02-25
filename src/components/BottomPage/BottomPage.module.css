@@ -1,0 +1,20 @@
+.div {
+    display: flex;
+    width: 100%;
+    padding: 50px 50px;
+    justify-content: space-between;
+
+}
+
+.explorePart {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.companyTerms {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 80px;
+}

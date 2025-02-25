@@ -1,0 +1,18 @@
+.app {
+    width: 100%; /* không được dùng 100vw */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* overflow-y: visible; */
+    /* height: 100vh; */
+}
+
+
+.hr {
+    width: 100vw;
+    opacity:0.5 ;
+    background-color: white;
+    position: sticky;
+    top: 80px;
+    z-index: 2;
+}

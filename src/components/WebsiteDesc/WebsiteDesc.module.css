@@ -1,0 +1,73 @@
+.websiteDesc {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.websiteImgDiv {
+    position: relative;
+    display: inline-flex;
+    /* border-radius: 10px; */
+}
+
+.websiteImgDiv:hover .websiteImg {
+    opacity: 0.7;
+}
+
+.websiteImgDiv:hover .buttonWithArrow {
+    opacity: 1;
+}
+
+.websiteImg {
+    height: 250px;
+    width: 200px;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.buttonWithArrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+.websiteDescDown {
+    display: flex;
+    /* align-items: center; */
+    margin-top: 10px;
+
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-top: 0;
+}
+
+.nameSource {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7px;
+    gap: 5px;
+    width: 120px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.source {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.money {
+    margin-left: auto;
+    font-weight: bold;
+    
+}
