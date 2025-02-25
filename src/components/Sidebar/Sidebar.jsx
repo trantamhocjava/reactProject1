@@ -1,12 +1,12 @@
 import FeatureWithIcon from "../FeatureWithIcon/FeatureWithIcon";
-import InputWithIcon from "../InputWithIcon/InputWithIcon";
+import SearchWithIcon from "../SearchWithIcon/SearchWithIcon";
 import styles from "./Sidebar.module.css";
 import { assets } from "../../assets/assets";
 
 const Sidebar = () => {
 	return (
 		<div className={styles.sidebar}>
-			<InputWithIcon />
+			<SearchWithIcon />
 			<FeatureWithIcon
 				text={"All"}
 				iconPath={assets.Home_icon}

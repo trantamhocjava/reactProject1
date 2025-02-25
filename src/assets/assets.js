@@ -6,7 +6,6 @@ import search_icon from "./search_icon.png"
 import Home_icon from "./Home_icon.png"
 import Arrows_right_icon from "./Arrows_right_icon.png"
 import web_img from "./web_img.jpg"
-import long_Arrows_right_icon from "./long_Arrows_right_icon.png"
 import sky from "./sky.jpg"
 import sky_bg from "./sky_bg.jpg"
 import Youtube_icon from "./Youtube_icon.png"
@@ -22,7 +21,6 @@ export const assets = {
     Home_icon,
     Arrows_right_icon, 
     web_img,
-    long_Arrows_right_icon,
     sky,
     sky_bg,
     Youtube_icon,
